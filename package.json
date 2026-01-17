@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ahadulsohag/Backend-LAB/issues"
   },
-  "homepage": "https://github.com/ahadulsohag/Backend-LAB#readme"
+  "homepage": "https://github.com/ahadulsohag/Backend-LAB#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
