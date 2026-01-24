@@ -1,0 +1,21 @@
+.pet-list {
+  padding: 2rem 0;
+}
+
+.section-title {
+  display: none;
+  /* Handled by App.jsx header now */
+}
+
+.pets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .pets-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
